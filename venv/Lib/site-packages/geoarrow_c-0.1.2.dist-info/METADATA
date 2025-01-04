@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: geoarrow-c
+Version: 0.1.2
+Author-email: Dewey Dunnington <dewey@dunnington.ca>
+License: Apache-2.0
+Project-URL: homepage, https://geoarrow.org
+Project-URL: repository, https://github.com/geoarrow/geoarrow-c
+Requires-Python: >=3.8
+Provides-Extra: test
+Requires-Dist: pyarrow ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: numpy ; extra == 'test'
+
